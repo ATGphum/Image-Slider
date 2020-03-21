@@ -1,0 +1,52 @@
+#mainImage {
+    display: block;
+    width: 35em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-width: 0.5em;
+    border-radius: 0.5em;
+    border-color: #d1d1d1;
+    box-shadow: 1px 4px 8px 3px #838383;
+}
+
+.icon {
+    display: block;
+    float: left;
+    width: 10em;
+    height: 10em;
+    border-radius: 20em;
+    margin-left: 1.4em;
+    border-style: solid;
+    border-width: 0.4em;
+    border-color: #d1d1d1;
+    box-shadow: 1px 4px 8px 3px #838383;
+}
+
+.icon:hover {
+    box-shadow: none;
+    margin-top: 0.3em;
+    cursor: pointer;
+}
+
+#tophalf {
+    display: flex;
+}
+
+.indexbutton {
+    font-size: 6em;
+    border-style: none;
+    height: 1.5em;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 2.4em;
+}
+
+.indexbutton:hover {
+    cursor: pointer;
+}
+
+.indexbutton:focus {
+    outline: none;
+}
